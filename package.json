@@ -1,0 +1,30 @@
+{
+  "name": "@tg-z/fave-tools",
+  "version": "1.0.0",
+  "description": "documentation for projects i like and most likely use pretty often ",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "tg-z",
+    "email": "parasitism@protonmail.com",
+    "url": "https://github.com/tg-z"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "doc,",
+    "tool,",
+    "index"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tg-z/@tg-z/fave-tools.git"
+  },
+  "homepage": "https://github.com/tg-z/@tg-z/fave-tools",
+  "bugs": {
+    "url": "https://github.com/tg-z/@tg-z/fave-tools/issues"
+  }
+}
