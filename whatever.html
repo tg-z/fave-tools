@@ -13,6 +13,13 @@
 - find -> [fd](https://github.com/sharkdp/fd)
 - sed -> [sd](https://github.com/sharkdp/sd)
 
-### text-editing -> vim/nvim
+| coreutil | alternative |
+|----------|-------------|
+| find     | fd          |
+| sed      | sd          |
+| cat      | bat         |
+| ag       | ripgrep     |
 
-fd . -e json -t f -d 2 | xargs -0 | sd -p '/' ','
+### text-editing -> vim/nvim
+- Plugins: *managed via [jarunn/vim-plug](https://github.com/jarunn/vim-plug)*
+  - fzf-vim:

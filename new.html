@@ -1,0 +1,76 @@
+<!-- whatever.html -->
+<script src="./static/md-page.js"></script><noscript>
+
+# h1
+## h2
+### faves :star:
+- [xsv](https://github.com/burntsushi/xsv) - a fast csv command line toolkit.
+- [ripgrep](https://github.com/burntsushi/ripgrep) - ripgrep recursively searches directories for a regex patterns.
+- [diskus](https://github.com/sharkdp/diskus) - a minimal, fast alternative to 'du -sh'.
+- [bat](https://github.com/sharkdp/bat) - a cat(1) clone with wings.
+
+### better coreutils
+- find -> [fd](https://github.com/sharkdp/fd)
+- sed -> [sd](https://github.com/sharkdp/sd)
+
+| coreutil | alternative |
+|----------|-------------|
+| find     | fd          |
+| sed      | sd          |
+| cat      | bat         |
+| ag       | ripgrep     |
+
+### text-editing -> vim/nvim
+<d- Plugins: *managed via [jarunn/vim-plug](https://github.com/jarunn/vim-plug)*
+  - fzf-vim:
+
+```vim
+" ================= looks and GUI stuff ================== "{{{
+
+
+Plug 'vim-airline/vim-airline'                          " airline status bar
+Plug 'vim-airline/vim-airline-themes'                   " airline themes
+Plug 'ryanoasis/vim-devicons'                           " pretty icons everywhere
+Plug 'luochen1990/rainbow'                              " rainbow parenthesis
+Plug 'hzchirs/vim-material'                             " material color themes
+Plug 'gregsexton/MatchTag'                              " highlight matching html tags
+Plug 'christoomey/vim-tmux-navigator'
+
+"}}}
+
+" ================= Functionalities ================= "{{{
+
+" auto completion, Lang servers and stuff
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" fuzzy stuff
+Plug 'junegunn/fzf.vim'                                " fuzzy search integration
+
+" snippets
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'                               " actual snippets
+
+" visual
+Plug 'alvan/vim-closetag'                               " auto close html tags
+Plug 'Yggdroot/indentLine'                              " show indentation lines
+Plug 'voldikss/vim-floaterm'                            " show floating terminal 
+
+" languages
+Plug 'tpope/vim-liquid'                                 " liquid language support
+Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}  " better python
+
+" other
+Plug 'tpope/vim-commentary'                             " better commenting
+Plug 'mhinz/vim-startify'                               " cool start up screen
+Plug 'kristijanhusak/vim-carbon-now-sh'                 " lit code Screenshots
+Plug 'tpope/vim-fugitive'                               " git support
+Plug 'psliwka/vim-smoothie'                             " some very smooth ass scrolling
+Plug 'farmergreg/vim-lastplace'                         " open files at the last edited place
+Plug 'wellle/tmux-complete.vim'                         " complete words from a tmux panes
+Plug 'liuchengxu/vista.vim'                             " a bar of tags
+Plug 'tpope/vim-eunuch'                                 " run common Unix commands inside Vim
+Plug 'machakann/vim-sandwich'                           " make sandwiches
+Plug 'easymotion/vim-easymotion'                        " make movement a lot faster and easier
+Plug '907th/vim-auto-save'                              " nothing beats this
+call plug#end()
+```
