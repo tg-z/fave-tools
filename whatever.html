@@ -1,7 +1,18 @@
 <!-- whatever.html -->
-<script src="https://rawcdn.githack.com/oscarmorrison/md-page/master/md-page.js"></script>
-<noscript> </noscript>
+<script src="https://rawcdn.githack.com/oscarmorrison/md-page/master/md-page.js"></script><noscript>
 
-# h1 ## h2 ### faves * item one * item two * item a * item b ### better
-coreutils - find -> [fd](https://github.com/burntsushi/fd) - sed ->
-[sd](https://github.com/burntsushi/sd)
+# h1
+## h2
+### faves :star:
+- [xsv](https://github.com/burntsushi/xsv) - a fast csv command line toolkit.
+- [ripgrep](https://github.com/burntsushi/ripgrep) - ripgrep recursively searches directories for a regex patterns.
+- [diskus](https://github.com/sharkdp/diskus) - a minimal, fast alternative to 'du -sh'.
+- [bat](https://github.com/sharkdp/bat) - a cat(1) clone with wings.
+
+### better coreutils
+- find -> [fd](https://github.com/sharkdp/fd)
+- sed -> [sd](https://github.com/sharkdp/sd)
+
+### text-editing -> vim/nvim
+
+fd . -e json -t f -d 2 | xargs -0 | sd -p '/' ','
